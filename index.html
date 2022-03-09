@@ -16,9 +16,69 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container border border-2 mt-5">
+        <div class="row">
+            <div class="col d-flex justify-content-end">
+                <button type="button" class="btn btn-dark text-light btn-xl mt-2" id="printButton" onclick="window.print()">Print this page</button>
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-8 img-fluid justify-content-start">
+                <img src="./img/IdeaFoundryLogo.png" alt="Idea Foundry Logo">
+            </div>
+            <div class="col-4 d-flex justify-content-end">
+                <h3>Client No: 4908</h3>
+            </div>
+        </div>
+
+        <hr>
+        
+        <div class="row d-flex align-items-center">
+            <div class="col d-flex justify-content-start">
+                <p>
+                    <strong>Date: </strong>05/12/2019
+                </p>
+            </div>
+            <div class="col d-flex justify-content-end">
+                <p>
+                    <strong>Invoice No: </strong>19005
+                </p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row d-flex align-items-center">
+            <div class="col d-flex justify-content-start">
+                <p>
+                    <strong>Invoice To:</strong><br>
+                    Mark Davis<br>
+                    3333 Al Davis Way<br>
+                    Las Vegas, NV 89118
+                </p>
+            </div>
+            <div class="col d-flex justify-content-end">
+                <p>
+                    <strong>Pay To:</strong><br>
+                    Idea Foundry, Inc.<br>
+                    2705 N. Enterprise St.<br>
+                    Kernersville, NC 27284
+                </p>
+            </div>
+        </div>
+        <!--TABLE STARTS HERE-->
         <div>
-            
+            <table class="table">
+                <thead>
+                    <tr class="border-2">
+                        <th class="colspan-3 border-2">Service</th>
+                        <th class="colspan-4 border-2">Description</th>
+                        <th class="colspan-2 border-2">Rate</th>
+                        <th class="colspan-1 border-2">QTY</th>
+                        <th class="colspan-2 border-2">Amount</th>
+                    </tr>
+                </thead>
+            </table>
         </div>
     </div>
 
